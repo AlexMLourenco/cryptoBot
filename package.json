@@ -1,0 +1,23 @@
+{
+  "name": "cryptobot",
+  "version": "1.0.0",
+  "description": "A cryptocurrency trading bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexMLourenco/cryptoBot.git"
+  },
+  "author": "Alexandre Lourenço",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexMLourenco/cryptoBot/issues"
+  },
+  "homepage": "https://github.com/AlexMLourenco/cryptoBot#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "gdax": "^0.9.0"
+  }
+}
