@@ -22,15 +22,10 @@ program.version('1.0.0')
 const main = async function() {
     const { interval, product, start, end } = program
 
-    const service = new Historic({
-        start,
-        end,
-        product,
-        interval
-    })
+    const service = new Historic({ start, end, product, interval })
 
     const data = await service.getData()
-
+    console.log(data)
 }
 
 main()
