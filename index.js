@@ -1,4 +1,5 @@
 const program = require('commander')
+const Backtest = require('./src/backtest')
 const Historic = require('./src/historic')
 const config = require('./configuration')
 
@@ -22,10 +23,15 @@ program.version('1.0.0')
 const main = async function() {
     const { interval, product, start, end } = program
 
-    const service = new Historic({ start, end, product, interval })
+    const tester = new Backtest({ start, end, product, interval })
+    
+    console.log(tester)
+    
+    await tester.start()
+    //const service = new Historic({ start, end, product, interval })
 
-    const data = await service.getData()
-    console.log(data)
+    //const data = await service.getData()
+    //console.log(data)
 }
 
 main()

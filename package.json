@@ -18,6 +18,10 @@
   "homepage": "https://github.com/AlexMLourenco/cryptoBot#readme",
   "dependencies": {
     "coinbase-pro": "^0.9.0",
-    "commander": "^2.20.0"
+    "colors": "^1.3.3",
+    "commander": "^2.20.0",
+    "npm-start-command": "^1.0.0",
+    "randomstring": "^1.1.5",
+    "tulind": "^0.8.15"
   }
 }
