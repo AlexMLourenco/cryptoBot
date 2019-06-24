@@ -1,4 +1,4 @@
-const gdax = require('gdax')
+const CoinbasePro = require('coinbase-pro');
 const Candlestick = require('../models/candlestick')
 
 // Set a time out in ms
@@ -8,7 +8,7 @@ function delay(ms) {
 
 class HistoricalService {
     constructor({ start, end, interval = 300, product }) {
-        this.client = new gdax.PublicClient()
+        this.client = new CoinbasePro.PublicClient()
         this.start = start
         this.end = end
         this.interval = interval
