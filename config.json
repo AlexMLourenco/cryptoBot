@@ -1,6 +1,6 @@
 {
-    "GDAX_API_KEY": "KEY",
-    "GDAX_API_SECRET": "SECRET",
-    "GDAX_API_PASSPHRASE": "PASSPHRASE",
+    "GDAX_API_KEY": "79bea64be74c744fc2f29c0d0cdc671e",
+    "GDAX_API_SECRET": "Gg1J3GG85JMdyy2YoYmg24eXPonC/Sgm9IvMOXZkJRbF63MOy9UOBLHl2sV6uZ0xYM+I6dOHZ/H8k/QSF6vymQ==",
+    "GDAX_API_PASSPHRASE": "hkxb3mzcmgi",
     "GDAX_API_URL": "https://api.pro.coinbase.com"
 }
