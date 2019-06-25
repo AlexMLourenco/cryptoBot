@@ -1,5 +1,5 @@
 const program = require('commander')
-const Backtester = require('./src/backtest')
+const Backtester = require('./src/backtester')
 const Trader = require('./src/trader')
 const config = require('./configuration')
 const Ticker = require('./src/ticker')

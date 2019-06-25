@@ -3,7 +3,7 @@ const randomstring = require('randomstring')
 const colors = require('colors/safe')
 const Runner = require('../runner')
 
-class Backtest extends Runner {
+class Backtester extends Runner {
   async start() {
     try {
       const history = await this.historical.getData()
@@ -37,4 +37,4 @@ class Backtest extends Runner {
   }
 }
 
-module.exports = Backtest
+module.exports = Backtester
