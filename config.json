@@ -1,7 +1,0 @@
-{
-    "COINBASEPRO_API_KEY": "79bea64be74c744fc2f29c0d0cdc671e",
-    "COINBASEPRO_API_SECRET": "Gg1J3GG85JMdyy2YoYmg24eXPonC/Sgm9IvMOXZkJRbF63MOy9UOBLHl2sV6uZ0xYM+I6dOHZ/H8k/QSF6vymQ==",
-    "COINBASEPRO_API_PASSPHRASE": "hkxb3mzcmgi",
-    "COINBASEPRO_API_URL": "https://api.pro.coinbase.com",
-    "COINBASEPRO_WS_URL": "wss://ws-feed.pro.coinbase.com"
-}

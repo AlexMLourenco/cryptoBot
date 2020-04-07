@@ -7,7 +7,6 @@ const secret = config.get('COINBASEPRO_API_SECRET')
 const passphrase = config.get('COINBASEPRO_API_PASSPHRASE')
 const apiUrl = config.get('COINBASEPRO_API_URL')
 
-
 class Broker {
   constructor({ isLive, orderType = "market", product }) {
     this.isLive = isLive
